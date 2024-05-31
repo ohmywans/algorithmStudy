@@ -33,7 +33,7 @@ int main(){
     return 0;
 }
 
-// BOJ 2559번: 수열 - 복습(정답)
+/* BOJ 2559번: 수열 - 복습(정답)
 #include <iostream>
 #include <algorithm>
 
@@ -60,3 +60,4 @@ int main() {
 	cout << ret << '\n';
 	return 0;
 }
+*/

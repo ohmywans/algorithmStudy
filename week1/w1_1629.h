@@ -3,7 +3,8 @@
  * A, B, C는 모두 20억 이하. 
  * 그러므로 이를 for문으로 접근하면 시간 복잡도가 20억이 나올 것이므로 for문으로 접근하지 말아야지! 해야돼
  * 무분별한 for문보다 구조적인 재귀 형태가 더 낮은 시간 복잡도로 계산될 수 있다!
-// Test case 입력 후 엔터치고 Ctrl + D 키 누르면 EOF 수동 입력 가능 
+ * Test case 입력 후 엔터치고 Ctrl + D 키 누르면 EOF 수동 입력 가능 
+ */
 #include<bits/stdc++.h> 
 using namespace std;
 typedef long long ll;
@@ -30,4 +31,3 @@ int main() {
     cout << go(a, b) << "\n";
     return 0;
 }
-*/

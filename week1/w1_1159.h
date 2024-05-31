@@ -1,4 +1,4 @@
-/* BOJ 1159번: 농구 경기
+// BOJ 1159번: 농구 경기
 // 정답 코드와 정확히 일치하는 로직이지만, 코드의 간소화를 위해 아래 달아둠
 
 #include <iostream>
@@ -48,7 +48,7 @@ int main() {
 	
     return 0;
 }
-*/
+
 
 /*
 #include<bits/stdc++.h>

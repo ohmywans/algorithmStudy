@@ -1,5 +1,4 @@
 // BOJ 2852번: NBA 농구 - GG (나는 너무 하나하나 접근하려했고, 쓰려는 자료구조가 한정적이었음)
-/////////////////////////////////////////
 #include<bits/stdc++.h> // prev, 시간 단위 낮추기, 
 using namespace std;
 #define prev kundol // 라이브러리 때문에 define을 걸어둠

@@ -1,5 +1,5 @@
 /* BOJ 2583번: 영역 구하기 - 도식화해서 회전시켜 원래 알고 있던 좌표 모양대로 품
-- 또, 주어진 좌표를 '<=' 보다는 '<' 로 lx, ly, rx, ry 범위 적용함 (코드 보면 알거야)
+- 또, 주어진 좌표를 '<=' 보다는 '<' 로 lx, ly, rx, ry 범위 적용함 (코드 보면 알거야) */
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -45,15 +45,6 @@ int main() {
 			}
 		}
 	}
-	// // 디버깅
-	// cout << '\n';
-	// cout << "값 넣고 난 상태: " << '\n';
-	// for (int i = 0; i < M; i++) {
-	// 	for (int j = 0; j < N; j++) {
-	// 		cout << a[i][j] << " ";
-	// 	}
-	// 	cout << '\n';
-	// }
 	for (int i = 0; i < M; i++) {
 		for (int j = 0; j < N; j++) {
 			if (a[i][j] && visited[i][j] == 0) {
@@ -72,7 +63,6 @@ int main() {
 		
 	return 0;
 }
-*/
 
 /*
 내 코드와 다른 점: 나는 직사각형이 아닌 영역은 1로 초기화하고 직사각형은 0으로 정의

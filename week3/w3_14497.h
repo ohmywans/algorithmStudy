@@ -1,4 +1,4 @@
-// BOJ 14497번: 주난의 난(難) - 정답 이지만, 시간 복잡도 고려 딱히 안하고 품
+// BOJ 14497번: 주난의 난(難) - 정답 이지만, 시간 복잡도 고려해서 효율화가 필요했음
 // 내 코드 시간 복잡도: O(NM^2)
 // 스승님 시간 복잡도: O(N*M) - win
 #include <iostream>
@@ -66,7 +66,7 @@ int main() {
     cout << ret << '\n';
     return 0;
 }
-
+/*
 // 스승님 코드 - 2개의 큐 + BFS
 #include <stdio.h>
 #include<algorithm>
@@ -113,3 +113,4 @@ int main(){
     }
     printf("%d\n", visited[y2][x2]); 
 }
+*/

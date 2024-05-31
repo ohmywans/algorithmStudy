@@ -45,6 +45,7 @@ int main() {
 		
 	return 0;
 }
+/*
 #include <bits/stdc++.h>
 using namespace std; 
 int n, m, j, l, r, temp, ret;
@@ -68,3 +69,4 @@ int main () {
 	cout << ret << "\n"; 
 	return 0;
 }
+*/

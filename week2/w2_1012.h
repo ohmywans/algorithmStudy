@@ -1,4 +1,4 @@
-/* BOJ 1012번: 유기농 배추 - 마지막에 디버깅으로 행렬들이 초기화되고 있지 않음을 알아냄
+// BOJ 1012번: 유기농 배추 - 마지막에 디버깅으로 행렬들이 초기화되고 있지 않음을 알아냄
 						   
 #include <iostream>
 using namespace std;
@@ -69,7 +69,7 @@ int main() {
 		
 	return 0;
 }
-*/
+
 
 /*
 #include<bits/stdc++.h>

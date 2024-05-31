@@ -1,4 +1,4 @@
-/* BOJ 11655번: ROT13 
+// BOJ 11655번: ROT13 
 // 걱정마 반복문의 반복으로 정답 코드와 같음
 
 #include <iostream>
@@ -23,4 +23,3 @@ int main() {
 	}
 	cout << s << '\n';
 }
-*/

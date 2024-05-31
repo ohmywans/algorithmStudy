@@ -1,4 +1,4 @@
-/* BOJ 9375번: 패션왕 신해빈 - 너무 어려움
+// BOJ 9375번: 패션왕 신해빈
 #include <bits/stdc++.h>
 using namespace std;
 int t, n;
@@ -21,4 +21,3 @@ int main(){
     }
     return 0;
 }
-*/

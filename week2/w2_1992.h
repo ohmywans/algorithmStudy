@@ -1,48 +1,5 @@
-/* BOJ 1992번: 쿼드트리 (GG)
-강의 후 기억으로 코드 복원
-#include <iostream>
-using namespace std;
-string input;
-int N;
-char a[64][64] = {' ', };
-
-string go(int y, int x, int size) {
-	if (size == 1) return string(1, a[y][x]);
-	string ret = "";
-	char b = a[y][x];
-	for (int i = y; i < y + size; i++) {
-		for (int j = x; j < x + size; j++) {
-			if (b != a[i][j]) {
-				ret += '(';
-				ret += go(y, x, size/2);
-				ret += go(y, x+size/2, size/2);
-				ret += go(y+size/2, x, size/2);
-				ret += go(y+size/2, x+size/2, size/2);
-				ret += ')';
-				
-				return ret;
-			}
-		}
-	}
-	return string(1, a[y][x]);
-}
-int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
-	cin >> N;
-	for (int i = 0; i < N; i++) {
-		cin >> input;
-		for (int j = 0; j < N; j++) {
-			a[i][j] = input[j]; // char형태로 a 행렬에 저장
-		}
-	}
-	cout << go(0, 0, N) << '\n';
-
-	return 0;
-}
-*/
-/* 
-정답코드: 
+// BOJ 1992번: 쿼드트리 (GG)
+// 정답 코드: 
 #include<bits/stdc++.h>
 using namespace std; 
 typedef long long int ll;     
@@ -86,4 +43,3 @@ int main(){
     cout << quard(0, 0, n) << '\n'; 
 	return 0; 
 }
-*/

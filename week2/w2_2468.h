@@ -2,7 +2,7 @@
 노트: 아무 지역도 물에 잠기지 않을 수도 있다.
 min_h, max_h 값이 같을 경우 안전 영역은 1개가 되어야함. 
 이를 추가적으로 처리해주니 정답이 되었다. 
-- 스승님의 정답코드가 로직상 더 깔끔하다!
+- 스승님의 정답코드가 로직상 더 깔끔하다! */
 
 #include <iostream>
 #include <vector>
@@ -64,15 +64,6 @@ int main() {
 				}
 			}
 		}
-		// // 디버깅
-		// cout << '\n';
-		// cout << "height: " << k << '\n';
-		// for (int i = 0; i < N; i++) {
-		// 	for (int j = 0; j < N; j++) {
-		// 		cout << visited[i][j] << " ";
-		// 	}
-		// 	cout << '\n';
-		// }
 		answer.push_back(ret);
 	}
 	int result = *max_element(answer.begin(), answer.end());
@@ -80,7 +71,6 @@ int main() {
 		
 	return 0;
 }
-*/
 
 /*
 #include<bits/stdc++.h>

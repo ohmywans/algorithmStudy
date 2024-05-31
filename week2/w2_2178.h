@@ -1,6 +1,6 @@
 /* BOJ 2178번: 미로 탐색 - 큐를 활용한 BFS 알고리즘의 전형적인 문제
 			 tie() 사용을 위해 tuple 라이브러리 include 필수!!!!!
-			 답안 비교: 답안과 로직 동일 / input 받을때 주석 처리한 곳 주목하기
+			 답안 비교: 답안과 로직 동일 / input 받을때 주석 처리한 곳 주목하기 */
 #include <iostream>
 #include <queue>
 #include <tuple> // tie() 사용을 위함
@@ -29,13 +29,6 @@ void bfs() {
 		}
 	}
 	cout << visited[N-1][M-1] << '\n';
-	// 최단거리 지도 visited[][] 생성
-	// for (int i = 0; i < N; i++) {
-	// 	for (int j = 0; j < M; j++) {
-	// 		cout << visited[i][j] << " ";
-	// 	}
-	// 	cout << '\n';
-	// }
 	return;
 }
 
@@ -68,7 +61,7 @@ int main() {
 	
 	return 0;
 }
-*/
+
 
 /* 정답 코드
 #include<bits/stdc++.h>

@@ -1,4 +1,4 @@
-/* BOJ 2309: 일곱 난쟁이 (브1) - 3번 풀이 빼곤 충분히 할 수 있었을텐데... 지난 강의도 다시 블로그로 상기하자!
+// BOJ 2309: 일곱 난쟁이
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -40,7 +40,7 @@ int main() {
 	
 	return 0;
 }
-*/
+
 /*
 #include <iostream>
 #include <vector>

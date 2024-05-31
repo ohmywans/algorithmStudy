@@ -1,4 +1,4 @@
-/* BOJ 10808번: 알파벳 개수
+// BOJ 10808번: 알파벳 개수
 
 // 지금은 alphabet[26]을 main 함수의 지역 변수로 alphabet을 선언함. 
 // 하지만 c++에서 전역 변수로 초기화 없이 선언하면 알아서 컴파일러가 0으로 초기화해주기 때문에
@@ -35,7 +35,7 @@ int main() {
 
     return 0;
 }
-*/
+
 /* 정답 - 나랑 같은 로직으로 푸셨는데 더 코드가 간소화된 버전
 #include<bits/stdc++.h>
 using namespace std;  
