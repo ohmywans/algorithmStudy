@@ -1,4 +1,4 @@
-# Algorithm study about C++ language.
+# Algorithm study about C++ language on Baekjoon Online Judge.
 
 1. **Open 'cmd' in BOJ_INF/src folder.**
 
