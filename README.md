@@ -14,3 +14,12 @@
 
 5. 3rd
 - **$ git push origin main**
+
+---
+- my gram PC 경우,
+- **$ git add .**
+- **$ git commit –m “update message”**
+- **$ git push origin main** 후, 오류 발생
+- **$ git pull origin main** 입력하고
+- Vim 화면으로 전환되면, Ctrl + C 입력하고, :qa로 벗어나기
+- **$ git push origin main** 로 업로드 되더라.
